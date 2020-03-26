@@ -24,10 +24,7 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.LinkedBlockingQueue;
 
-/**
- * Created on 2017/1/15 20:55
- * Mail zww199009@163.com
- */
+
 @Component
 public class LogThread extends Thread {
 
@@ -39,6 +36,7 @@ public class LogThread extends Thread {
     @Autowired
     private MenuDao menuDao;
 
+    @Override
     public void run() {
         logger.info("start the InterceptorLog  thread");
         while (true) {
