@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2005-2012 springside.org.cn
  */
 package com.wolfking.jeesite.common.mapper;
 
@@ -18,8 +17,6 @@ import com.google.common.collect.Lists;
  * 3. 批量转换Collection中的所有对象.
  * 4. 区分创建新的B对象与将对象A值复制到已存在的B对象两种函数.
  * 
- * @author calvin
- * @version 2013-01-15
  */
 public class BeanMapper {
 

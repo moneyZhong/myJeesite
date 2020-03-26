@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.config;
 
@@ -18,8 +17,6 @@ import java.util.Properties;
 /**
  * 全局配置类
  *
- * @author ThinkGem
- * @version 2014-06-25
  */
 @Slf4j
 public class Global {

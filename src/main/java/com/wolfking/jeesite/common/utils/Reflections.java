@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2005-2012 springside.org.cn
  */
 package com.wolfking.jeesite.common.utils;
 
@@ -19,8 +18,6 @@ import org.springframework.util.Assert;
 /**
  * 反射工具类.
  * 提供调用getter/setter方法, 访问私有变量, 调用私有方法, 获取泛型类型Class, 被AOP过的真实类等工具函数.
- * @author calvin
- * @version 2013-01-15
  */
 @SuppressWarnings("rawtypes")
 public class Reflections {

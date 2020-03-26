@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.persistence.proxy;
 
@@ -21,8 +20,6 @@ import java.util.Set;
  * .
  * </p>
  *
- * @author poplar.yfyang
- * @version 1.0 2012-05-13 上午10:07
  * @since JDK 1.5
  */
 public class PaginationMapperProxy implements InvocationHandler {

@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.persistence;
 
@@ -18,8 +17,6 @@ import com.wolfking.jeesite.common.utils.CookieUtils;
 
 /**
  * 分页类
- * @author ThinkGem
- * @version 2013-7-2
  * @param <T>
  */
 public class Page<T> {

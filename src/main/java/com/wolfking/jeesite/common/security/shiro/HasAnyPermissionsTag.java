@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.security.shiro;
 
@@ -9,7 +8,6 @@ import org.apache.shiro.web.tags.PermissionTag;
 /**
  * Shiro HasAnyPermissions Tag.
  * 
- * @author calvin
  */
 public class HasAnyPermissionsTag extends PermissionTag {
 

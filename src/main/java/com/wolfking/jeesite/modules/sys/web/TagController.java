@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.web;
 
@@ -14,8 +13,6 @@ import com.wolfking.jeesite.common.web.BaseController;
 
 /**
  * 标签Controller
- * @author ThinkGem
- * @version 2013-3-23
  */
 @Controller
 @RequestMapping(value = "${adminPath}/tag")

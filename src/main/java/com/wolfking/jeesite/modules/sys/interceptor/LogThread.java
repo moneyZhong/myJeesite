@@ -25,7 +25,6 @@ import java.util.UUID;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * Created by wolfking(赵伟伟)
  * Created on 2017/1/15 20:55
  * Mail zww199009@163.com
  */

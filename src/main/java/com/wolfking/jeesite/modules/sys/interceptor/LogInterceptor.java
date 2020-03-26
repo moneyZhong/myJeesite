@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.interceptor;
 
@@ -20,8 +19,6 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 日志拦截器
  *
- * @author ThinkGem
- * @version 2014-8-19
  */
 @Component("controllerLogInterceptor")
 @Slf4j

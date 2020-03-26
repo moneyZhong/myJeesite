@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2005-2012 springside.org.cn
  */
 package com.wolfking.jeesite.common.security;
 
@@ -19,7 +18,6 @@ import com.wolfking.jeesite.common.utils.Exceptions;
  * 
  * 返回ByteSource，可进一步被编码为Hex, Base64或UrlSafeBase64
  * 
- * @author calvin
  */
 public class Digests {
 

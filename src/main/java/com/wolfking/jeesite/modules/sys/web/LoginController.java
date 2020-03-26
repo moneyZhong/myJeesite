@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.web;
 
@@ -32,8 +31,6 @@ import java.util.Map;
 /**
  * 登录Controller
  *
- * @author ThinkGem
- * @version 2013-5-31
  */
 @Controller
 public class LoginController extends BaseController {

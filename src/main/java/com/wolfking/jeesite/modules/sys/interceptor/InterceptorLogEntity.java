@@ -3,7 +3,6 @@ package com.wolfking.jeesite.modules.sys.interceptor;
 import com.wolfking.jeesite.modules.sys.entity.Log;
 
 /**
- * Created by wolfking(赵伟伟)
  * Created on 2017/1/15 20:51
  * Mail zww199009@163.com
  */

@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.security.shiro.session;
 
@@ -29,8 +28,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * 自定义WEB会话管理类
- * @author ThinkGem
- * @version 2014-7-20
  */
 @Component
 public class SessionManager extends DefaultWebSessionManager {

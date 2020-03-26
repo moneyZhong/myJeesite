@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.entity;
 
@@ -15,8 +14,6 @@ import com.wolfking.jeesite.common.persistence.DataEntity;
 
 /**
  * 菜单Entity
- * @author ThinkGem
- * @version 2013-05-15
  */
 public class Menu extends DataEntity<Menu> {
 

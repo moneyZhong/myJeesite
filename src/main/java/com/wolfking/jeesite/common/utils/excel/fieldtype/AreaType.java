@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.utils.excel.fieldtype;
 
@@ -12,8 +11,6 @@ import com.wolfking.jeesite.modules.sys.utils.UserUtils;
 
 /**
  * 字段类型转换
- * @author ThinkGem
- * @version 2013-03-10
  */
 public class AreaType {
 

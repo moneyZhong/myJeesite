@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2005-2012 springside.org.cn
  */
 package com.wolfking.jeesite.common.validator;
 
@@ -24,8 +23,6 @@ import com.google.common.collect.Maps;
  * 3. Map<propertyPath, message>
  * 
  * 详情见wiki: https://github.com/springside/springside4/wiki/HibernateValidator
- * @author calvin
- * @version 2013-01-15
  */
 public class BeanValidators {
 

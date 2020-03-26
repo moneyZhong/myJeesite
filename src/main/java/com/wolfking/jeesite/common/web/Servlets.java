@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2005-2012 springside.org.cn
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  */
@@ -27,8 +26,6 @@ import java.util.Map.Entry;
 /**
  * Http与Servlet工具类.
  *
- * @author calvin/thinkgem
- * @version 2014-8-19
  */
 public class Servlets {
 

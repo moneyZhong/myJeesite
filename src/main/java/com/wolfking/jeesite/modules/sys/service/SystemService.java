@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.service;
 
@@ -40,8 +39,6 @@ import java.util.List;
 /**
  * 系统管理，安全相关实体的管理类,包括用户、角色、菜单.
  *
- * @author ThinkGem
- * @version 2013-12-05
  */
 @Service
 @Transactional(readOnly = true)

@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.web;
 
@@ -40,8 +39,6 @@ import com.wolfking.jeesite.modules.sys.entity.User;
 
 /**
  * 用户Controller
- * @author ThinkGem
- * @version 2013-8-29
  */
 @Controller
 @RequestMapping(value = "${adminPath}/sys/user")

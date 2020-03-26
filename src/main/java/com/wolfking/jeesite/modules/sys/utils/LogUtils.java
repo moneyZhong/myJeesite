@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.utils;
 
@@ -15,8 +14,6 @@ import java.util.Date;
 /**
  * 字典工具类
  *
- * @author ThinkGem
- * @version 2014-11-7
  */
 public class LogUtils {
 

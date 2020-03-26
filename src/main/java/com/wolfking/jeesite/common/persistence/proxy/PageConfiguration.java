@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.persistence.proxy;
 
@@ -12,8 +11,6 @@ import org.apache.ibatis.session.SqlSession;
  * 自定义Mybatis的配置，扩展.
  * </p>
  *
- * @author poplar.yfyang
- * @version 1.0 2012-05-13 上午10:06
  * @since JDK 1.5
  */
 public class PageConfiguration extends Configuration {

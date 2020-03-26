@@ -54,7 +54,7 @@ public class WolfkingJeesiteTest {
         while((line = bufferReader.readLine()) != null){
             System.out.println(line);
             if(!isRemove(line)){
-                bufferedWriter.write(line);
+                bufferedWriter.write(line+"\r\n");
             }
         }
 

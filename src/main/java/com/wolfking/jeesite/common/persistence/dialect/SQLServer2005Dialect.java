@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.persistence.dialect;
 
@@ -9,8 +8,6 @@ import com.wolfking.jeesite.common.persistence.dialect.Dialect;
 
 /**
  * Sql 2005的方言实现
- * @author poplar.yfyang
- * @version 1.0 2010-10-10 下午12:31
  * @since JDK 1.5
  */
 public class SQLServer2005Dialect implements Dialect {

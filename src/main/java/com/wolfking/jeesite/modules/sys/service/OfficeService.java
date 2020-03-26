@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.service;
 
@@ -19,8 +18,6 @@ import com.wolfking.jeesite.modules.sys.utils.UserUtils;
 
 /**
  * 机构Service
- * @author ThinkGem
- * @version 2014-05-16
  */
 @Service
 @Transactional(readOnly = true)

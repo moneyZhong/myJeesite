@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.servlet;
 
@@ -23,8 +22,6 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * 生成随机验证码
- * @author ThinkGem
- * @version 2014-7-27
  */
 @SuppressWarnings("serial")
 @WebServlet(urlPatterns = "/servlet/validateCodeServlet")

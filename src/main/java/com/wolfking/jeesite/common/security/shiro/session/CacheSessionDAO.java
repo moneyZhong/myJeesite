@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.security.shiro.session;
 
@@ -32,8 +31,6 @@ import org.springframework.stereotype.Repository;
 
 /**
  * 系统安全认证实现类
- * @author ThinkGem
- * @version 2014-7-24
  */
 @Component("sessionDAO")
 public class CacheSessionDAO extends EnterpriseCacheSessionDAO implements SessionDAO,InitializingBean{

@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.entity;
 
@@ -14,8 +13,6 @@ import com.wolfking.jeesite.common.utils.StringUtils;
 
 /**
  * 日志Entity
- * @author ThinkGem
- * @version 2014-8-19
  */
 public class Log extends DataEntity<Log> {
 

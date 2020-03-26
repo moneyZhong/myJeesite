@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.entity;
 
@@ -22,8 +21,6 @@ import com.wolfking.jeesite.common.utils.excel.fieldtype.RoleListType;
 
 /**
  * 用户Entity
- * @author ThinkGem
- * @version 2013-12-05
  */
 public class User extends DataEntity<User> {
 

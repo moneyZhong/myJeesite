@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.dao;
 
@@ -10,8 +9,6 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 角色DAO接口
  *
- * @author ThinkGem
- * @version 2013-12-05
  */
 @Mapper
 public interface RoleDao extends CrudDao<Role> {

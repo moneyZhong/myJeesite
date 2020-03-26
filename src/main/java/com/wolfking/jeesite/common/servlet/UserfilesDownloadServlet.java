@@ -16,8 +16,6 @@ import java.io.*;
 /**
  * 查看CK上传的图片
  *
- * @author ThinkGem
- * @version 2014-06-25
  */
 @WebServlet(urlPatterns = "/userfiles/*")
 public class UserfilesDownloadServlet extends HttpServlet {

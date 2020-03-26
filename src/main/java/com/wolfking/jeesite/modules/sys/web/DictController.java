@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.modules.sys.web;
 
@@ -34,8 +33,6 @@ import com.wolfking.jeesite.modules.sys.service.DictService;
 
 /**
  * 字典Controller
- * @author ThinkGem
- * @version 2014-05-16
  */
 @Controller
 @RequestMapping(value = "${adminPath}/sys/dict")

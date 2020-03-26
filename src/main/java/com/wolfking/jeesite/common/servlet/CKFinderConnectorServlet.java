@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.servlet;
 
@@ -20,8 +19,6 @@ import java.io.IOException;
 /**
  * CKFinderConnectorServlet
  *
- * @author ThinkGem
- * @version 2014-06-25
  */
 @WebServlet(urlPatterns = "/static/ckfinder/core/connector/java/connector.java", initParams = {
         @WebInitParam(name = "XMLConfig", value = "classpath:ckfinder.xml"),

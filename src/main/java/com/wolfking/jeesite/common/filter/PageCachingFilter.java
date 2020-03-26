@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.filter;
 
@@ -11,8 +10,6 @@ import com.wolfking.jeesite.common.utils.SpringContextHolder;
 
 /**
  * 页面高速缓存过滤器
- * @author ThinkGem
- * @version 2013-8-5
  */
 public class PageCachingFilter extends SimplePageCachingFilter {
 

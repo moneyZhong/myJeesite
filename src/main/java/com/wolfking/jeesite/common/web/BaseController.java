@@ -1,5 +1,4 @@
 /**
- * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
 package com.wolfking.jeesite.common.web;
 
@@ -31,8 +30,6 @@ import java.util.List;
 /**
  * 控制器支持类
  *
- * @author ThinkGem
- * @version 2013-3-23
  */
 public abstract class BaseController {
     /**
