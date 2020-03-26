@@ -6,6 +6,7 @@ package com.wolfking.jeesite.modules.sys.interceptor;
 import com.wolfking.jeesite.common.service.BaseService;
 import com.wolfking.jeesite.common.utils.DateUtils;
 import com.wolfking.jeesite.modules.sys.utils.LogUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.NamedThreadLocal;
@@ -23,11 +24,12 @@ import javax.servlet.http.HttpServletResponse;
  * @version 2014-8-19
  */
 @Component("controllerLogInterceptor")
+@Slf4j
 public class LogInterceptor extends BaseService implements HandlerInterceptor {
 
-    private Logger logger = LoggerFactory.getLogger("controller-log");
+
     private static final ThreadLocal<Long> startTimeThreadLocal =
-            new NamedThreadLocal<Long>("ThreadLocal StartTime");
+            new ThreadLocal<Long>();
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response,

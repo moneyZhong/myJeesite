@@ -15,7 +15,10 @@ import org.apache.shiro.web.servlet.SimpleCookie;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.bind.RelaxedPropertyResolver;
+
+import org.springframework.boot.context.properties.bind.Binder;
+import org.springframework.boot.context.properties.source.ConfigurationPropertySource;
+import org.springframework.boot.context.properties.source.ConfigurationPropertySources;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.DependsOn;
@@ -47,7 +50,8 @@ public class ShiroConfig {
      */
     @Bean(name = "shiroFilterChainDefinitions")
     public String shiroFilterChainDefinitions(Environment environment, @Value("${adminPath}") String adminPath) {
-        Global.resolver = new RelaxedPropertyResolver(environment);
+
+        Global.resolver = environment;
         String string = "/static/** = anon\n";
         string += "/userfiles/** = anon\n";
         string += adminPath + "/basic = basic\n";

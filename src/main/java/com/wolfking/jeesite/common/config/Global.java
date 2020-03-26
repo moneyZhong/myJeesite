@@ -7,11 +7,13 @@ import com.ckfinder.connector.ServletContextFactory;
 import com.google.common.collect.Maps;
 import com.wolfking.jeesite.common.utils.PropertiesLoader;
 import com.wolfking.jeesite.common.utils.StringUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.bind.RelaxedPropertyResolver;
+import org.springframework.core.env.Environment;
 
 import java.util.Map;
+import java.util.Properties;
 
 /**
  * 全局配置类
@@ -19,11 +21,12 @@ import java.util.Map;
  * @author ThinkGem
  * @version 2014-06-25
  */
+@Slf4j
 public class Global {
 
     private static Logger logger = LoggerFactory.getLogger(Global.class);
 
-    static RelaxedPropertyResolver resolver;
+    static Environment resolver;
     /**
      * 当前对象实例
      */

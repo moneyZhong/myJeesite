@@ -122,7 +122,7 @@
 <!--[if lte IE 6]><br/>
 <div class='alert alert-block' style="text-align:left;padding-bottom:10px;"><a class="close" data-dismiss="alert">x</a>
     <h4>温馨提示：</h4>
-    <p>你使用的浏览器版本过低。为了获得更好的浏览体验，我们强烈建议您 <a href="http://browsehappy.com" target="_blank">升级</a> 到最新版本的IE浏览器，或者使用较新版本的
+    <p>你使用的浏览器版本过低。为了获得更好的浏览体验，我们强烈建议您 <a href="https://www.google.cn/intl/zh-CN/chrome/" target="_blank">升级</a> 到最新版本的IE浏览器，或者使用较新版本的
         Chrome、Firefox、Safari 等。</p></div><![endif]-->
 <div class="header">
     <div id="messageBox" class="alert alert-error ${empty message ? 'hide' : ''}">
@@ -162,8 +162,7 @@
     </div>
 </form>
 <div class="footer">
-    Copyright &copy; 2012-2030 <a href="${pageContext.request.contextPath}">${fns:getConfig('productName')}</a> -
-    Powered By <a href="http://jeesite.com" target="_blank">JeeSite</a> ${fns:getConfig('version')}
+    Copyright &copy; 2020-2030 <a href="${pageContext.request.contextPath}">${fns:getConfig('productName')}</a> ${fns:getConfig('version')}
 </div>
 <script src="${ctxStatic}/flash/zoom.min.js" type="text/javascript"></script>
 </body>

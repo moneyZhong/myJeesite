@@ -21,6 +21,5 @@ import org.springframework.context.annotation.ComponentScan;
 public class WolfkingJeesiteDriver {
     public static void main(String[] args) {
         new SpringApplicationBuilder(WolfkingJeesiteDriver.class).web(true).run(args);
-        SystemService.printKeyLoadMessage();
     }
 }

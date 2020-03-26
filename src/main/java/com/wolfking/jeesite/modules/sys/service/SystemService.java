@@ -397,17 +397,4 @@ public class SystemService extends BaseService {
 		// 清除日志相关缓存
 		CacheUtils.remove(LogUtils.CACHE_MENU_NAME_PATH_MAP);
 	}
-
-	/**
-	 * 获取Key加载信息
-	 */
-	public static boolean printKeyLoadMessage() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("\r\n======================================================================\r\n");
-		sb.append("\r\n    欢迎使用 " + Global.getConfig("productName") + "  - Powered By http://jeesite.com\r\n");
-		sb.append("\r\n======================================================================\r\n");
-		System.out.println(sb.toString());
-		return true;
-	}
-
 }
